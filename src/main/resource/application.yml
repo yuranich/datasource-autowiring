@@ -1,0 +1,12 @@
+hbase:
+  zookeeper:
+    quorum: localhost
+  property:
+    clientPort: 2181
+
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  host: localhost
+  url: jdbc:mysql://${jdbc.host}/mysql?characterEncoding=UTF-8
+  username: root
+  password: root
