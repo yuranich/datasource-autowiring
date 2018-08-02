@@ -3,10 +3,6 @@ hbase:
     quorum: localhost
   property:
     clientPort: 2181
+server:
+  port: 8003
 
-jdbc:
-  driverClassName: com.mysql.jdbc.Driver
-  host: localhost
-  url: jdbc:mysql://${jdbc.host}/mysql?characterEncoding=UTF-8
-  username: root
-  password: root

@@ -10,5 +10,15 @@ public class HelloController {
     public String index() {
         return "Greetings from Spring Boot!";
     }
+
+    @RequestMapping("/custom")
+    public String custom() {
+        return "New custom method!!";
+    }
+
+    @RequestMapping("/additional")
+    public String additional() {
+        return "Wow wow additional new method!!!";
+    }
     
 }
